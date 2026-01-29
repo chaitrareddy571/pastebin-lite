@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 Pastebin Lite
+Pastebin Lite is a lightweight full-stack web application that allows users to create, store, and share text snippets through unique URLs. The project demonstrates practical use of Next.js App Router, dynamic routing, API routes, and basic persistence, with a clean and user-friendly interface.
 
-## Getting Started
+✨ Key Highlights (Recruiter-Friendly)
+End-to-end full-stack implementation using Next.js
+Dynamic routing for shareable paste URLs
+REST-style API routes for creating and retrieving pastes
+Clipboard integration for copying content and links
+Deployed and accessible via cloud hosting (Vercel)
 
-First, run the development server:
+🛠️ Tech Stack
+Frontend: Next.js (App Router), React
+Backend: Next.js API Routes
+Persistence: In-memory data store
+Deployment: Vercel
 
-```bash
+💾 Persistence Strategy
+Paste data is stored using an in-memory data store during application runtime.
+Each paste is assigned a unique identifier and retrieved via API routes.
+This approach is suitable for learning and demos. The design allows easy extension to persistent storage solutions such as Redis or PostgreSQL for production use.
+
+▶️ How to Run Locally
+1. Clone the repository
+Bash
+git clone https://github.com/chaitrareddy571/pastebin-lite.git
+cd pastebin-lite
+2. Install dependencies
+Bash
+npm install
+3. Start the development server
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open the application in your browser at
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🌐 Live Deployment
+The project is deployed using Vercel.
+Live Demo:  
+👉 https://pastebin-lite-vercel-pgxan34r5-chaitras-projects-57328bc2.vercel.app
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔐 Security & Best Practices
+No secrets, API keys, or credentials are included
+No hardcoded production URLs
+Environment-safe and deployment-ready structure
 
-## Learn More
+📌 Future Enhancements
+Persistent database integration (Redis / PostgreSQL)
+Paste expiration support
+Authentication and private pastes
+Syntax highlighting for code snippets
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👩‍💻 Author
+Chaitra Reddy
+Aspiring Software Developer | Full-Stack Enthusiast
